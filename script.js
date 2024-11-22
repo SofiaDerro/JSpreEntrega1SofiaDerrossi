@@ -138,7 +138,12 @@ let cantidad = (3)
 
 
 
+ /*let paises = document.getElementsByClassName("paises");
+ console.log(paises[0].innerHTML);
+ console.log(paises[1].innerHTML);
+ console.log(paises[2].innerHTML);
  
+ ESTO RETORNA UN ARRAY DE ELEMENTOS CON TODAS LAS COINCIDENCIAS/*
 
 
 
@@ -160,4 +165,4 @@ let cantidad = (3)
 //miArray.push("otra cosa") // esto lo agrega al final, si quiero agregar al ppio tengo que poner .unshift
 
 //console.log (miArray.length) //va a ser 4
-//console.log (miArray) //va a ser ["marca", 3, "palabra", "otra cosa"]
+//console.log (miArray) //va a ser ["marca", 3, "palabra", "otra cosa"]*/

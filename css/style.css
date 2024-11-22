@@ -3,4 +3,19 @@ nav img {
 
 .imagen img {
   display: flex;
-  width: 100%; }
+  width: 100%;
+  position: absolute; }
+
+.venta {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  gap: 3%;
+  justify-content: center;
+  position: relative;
+  margin-top: 20%; }
+
+.venta img {
+  height: 240px;
+  border-radius: 10%;
+  border-color: black;
+  border-style: solid; }
