@@ -6,15 +6,22 @@ nav img {
   width: 100%;
   position: absolute; }
 
-.venta {
+.venta ul {
   display: grid;
   grid-template-columns: 25% 25% 25%;
   gap: 3%;
   justify-content: center;
   position: relative;
-  margin-top: 20%; }
+  margin-top: 20%;
+  list-style-type: none; }
 
-.venta img {
+.venta ul li {
+  background-color: azure;
+  color: black;
+  font-style: italic;
+  font-weight: bold; }
+
+.venta ul img {
   height: 240px;
   border-radius: 10%;
   border-color: black;

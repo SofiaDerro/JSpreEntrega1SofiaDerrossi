@@ -1,5 +1,5 @@
 
-let usuario = prompt("Ingrese el usuario");
+/*let usuario = prompt("Ingrese el usuario");
 
 console.log(usuario);
 
@@ -90,27 +90,6 @@ if (( usuario === 'Roberto' ) && Number(contrasenia === 1928) ) {
     alert = "Viajes hasta tres personas"
 
 
-     class Viaje {
-        constructor (lugar, noches, precio, pasajeros) {
-        this.lugar = lugar;
-        this.noches = noches;
-        this.precio = precio;
-        //this.pasajeros = pasajeros
-        this.comprado = false;
-    }
-
-    vender (){
-        this.comprado = true
-    }
-}
-
-const Viajes = [];
-
-Viaje.push = new Viaje ("Madrid", "7 noches", "2550000");
-Viaje.push = new Viaje ("Mendoza", "4 noches", "800000");
-Viaje.push = new Viaje ("Ushuaia", "5 noches", "1000000");
-
-
 //const filtro = Viajes.filter ((el)=> )
 
 
@@ -134,23 +113,46 @@ let cantidad = (3)
     pasajero.push = new pasajero (NombreYapellido, Edad, DNI)
     console.log(pasajero.length)
 
- } while (pasajero.length !=cantidad);
+ } while (pasajero.length !=cantidad);*/
 
 
+ class Viaje {
+    constructor (lugar, noches, precio, pasajeros) {
+    this.lugar = lugar;
+    this.noches = noches;
+    this.precio = precio;
+    //this.pasajeros = pasajeros
+    this.comprado = false;
+}
 
- /*let paises = document.getElementsByClassName("paises");
+vender (){
+    this.comprado = true
+}
+}
+
+const Viajes = [];
+
+Viaje.push = new Viaje ("Madrid", "7 noches", "2550000");
+Viaje.push = new Viaje ("Mendoza", "4 noches", "800000");
+Viaje.push = new Viaje ("Ushuaia", "5 noches", "1000000");
+
+
+ let paises = document.getElementsByClassName("paises");
  console.log(paises[0].innerHTML);
  console.log(paises[1].innerHTML);
  console.log(paises[2].innerHTML);
- 
- ESTO RETORNA UN ARRAY DE ELEMENTOS CON TODAS LAS COINCIDENCIAS/*
 
+ /*for (const Viaje of Viajes){
+    let nuevo = document.createElement ("div");
+    nuevo.innerHTML = ( viaje, h1, p, p);
+ }     */ 
+ //Esto solo sirve con objetos creados con ID
 
+ let buscar = document.createElement ("search");
+ buscar.innerHTML="<h4>Buscar</h4>";
+document.body.append(buscar);
 
-
-
-
-
+document.getElementById("buscar").value=("Buscar");
 
 //let Viaje = [
 //    {id: 1, lugar: "Madrid", noches: "7 noches", precio : 2550000},
