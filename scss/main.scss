@@ -35,3 +35,18 @@ nav img{
     border-style: solid;
    
 }
+
+.paquetesporpersonas {
+    background-color: cadetblue;
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paquetesporpersonas ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}

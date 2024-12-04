@@ -1,122 +1,4 @@
-
-/*let usuario = prompt("Ingrese el usuario");
-
-console.log(usuario);
-
-const contrasenia = Number (prompt ("Ingrese contraseña"));
-
-console.log(contrasenia);
-
-if (( usuario === 'Roberto' ) && Number(contrasenia === 1928) ) {
-
-    alert('Bienvenido ' + usuario + '!!!!!');
-  
-  } else if  (( usuario != 'Roberto' ) &&  Number(contrasenia === 1928)) {
-  
-    alert('Por favor, ingresá un usuario válido');
-
-} else if (( usuario === 'Roberto' ) && Number(contrasenia != 1928)) {
-  
-        alert('Contraseña incorrecta');
-
-    } else {
-            alert('Error, usuario y contraseña inválidas')
-        }
-
-//Suscripción
-
-    let suscripcion = false
-
-    while( suscripcion === false) {
-        
-        suscripcion = confirm("Querés suscribirte a nuestro canal? Tendrás muchos beneficios!");
-        if (suscripcion === true) {
-            break;
-        }
-        suscripcion = confirm("Dale porfa");
-        if (suscripcion === true) {
-            break;    
-        }
-        suscripcion = confirm("Esta bueno eh");
-        if (suscripcion === true) {
-            break; 
-        }
-        suscripcion = confirm("No seas malo/a");
-
-        if (suscripcion === true) {
-            break;
-        }
-    }
-
-    //Convertir dolar a peso o peso a dolar
-
-    function multiplicar(num1, num2) {
-        let resultado = num1 * num2
-        return resultado
-    }
-    function dividir(num1, num2) {
-        let resultado = num1 / num2
-        return resultado
-    }
-    function convertidor (valorDolar, M, moneda) {
-        switch (moneda) {
-            case "pesos":
-                return multiplicar(valorDolar, M)
-                break;
-            case "dolares":
-                return dividir(M, valorDolar)
-                break;
-            default:
-                return 0;
-                break;
-        }
-    }
-    let valorDolar = Number(1001)
-    let moneda = prompt('¿A qué moneda quiere convertir? Ingrese "pesos" o "dolares"')
-    let M = Number(prompt("Ingrese monto a convertir:"))
-    let resultado = convertidor (valorDolar, M, moneda)
-
-    if (moneda === "pesos") {
-
-        alert("Usted tiene " + resultado + " pesos")
-
-    } else if (moneda === "dolares") {
-        
-        alert("Usted tiene " + resultado + " dolares")
-    } else {
-        alert("Ingrese moneda válida")
-    }
-    
-    alert = "Viajes hasta tres personas"
-
-
-//const filtro = Viajes.filter ((el)=> )
-
-
-class pasajero {
-    constructor(NombreYapellido, Edad, DNI) {
-        this.NombreYapellido = NombreYapellido;
-        this.Edad = Edad;
-        this.DNI = DNI;
-    }
-}
-
-const pasajeros = [];
-
-let cantidad = (3)
-
- do {
-    let NombreYapellido = prompt ("Ingresar nombre y apellido")
-    let Edad = prompt ("Ingrese Edad")
-    let DNI = prompt ("Ingrese DNI")
-
-    pasajero.push = new pasajero (NombreYapellido, Edad, DNI)
-    console.log(pasajero.length)
-
- } while (pasajero.length !=cantidad);*/
-
-
- class Viaje {
+class Viaje {
     constructor (lugar, noches, precio, pasajeros) {
     this.lugar = lugar;
     this.noches = noches;
@@ -153,6 +35,12 @@ Viaje.push = new Viaje ("Ushuaia", "5 noches", "1000000");
 document.body.append(buscar);
 
 document.getElementById("buscar").value=("Buscar");
+
+let imput1 = document.getElementById("Adonde")
+let imput2 = document.getElementById("Cuantas")
+
+imput1.onchange = () => {console.log ("Lugar")};
+imput2.onchange = () => {console.log ("CantidadPersonas")};
 
 //let Viaje = [
 //    {id: 1, lugar: "Madrid", noches: "7 noches", precio : 2550000},
